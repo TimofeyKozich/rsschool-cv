@@ -1,1 +1,1 @@
-https://github.com/TimofeyKozich/rsschool-cv/edit/gh-pages/cv.md
+https://TimofeyKozich.github.io/rsschool-cv/cv
