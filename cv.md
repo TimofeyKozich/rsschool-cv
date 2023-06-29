@@ -1,11 +1,11 @@
-###### Timofey Kozich
+##### Timofey Kozich
 *******************
 
 ### Contacts
 *******************
-*Phone: +375 29 550-85-56
-*E-mail: [kozich.timofey@gmail.com][kozich.timofey@gmail.com]
-*GitHub: [TimofeyKozich][https://github.com/TimofeyKozich]
+* Phone: +375 29 550-85-56
+* E-mail: [kozich.timofey@gmail.com][kozich.timofey@gmail.com]
+* GitHub: [TimofeyKozich][https://github.com/TimofeyKozich]
 
 ### About me
 ********************
@@ -14,10 +14,10 @@ I believe, that my ability to learn and to gain new skills will lead me through 
 
 ### Skills
 ********************
-*HTML
-*CSS/SASS
-*JavaScript
-*Git
+* HTML
+* CSS/SASS
+* JavaScript
+* Git
 
 ### Code example
 *******************
@@ -30,8 +30,12 @@ function mergeArrays(arr1, arr2) {
 
 ### Education
 ********************
-*Belorussian state university of informatic and radioelectronic
-*RS School - JavaScript/Front-end
+* Belorussian state university of informatic and radioelectronic
+* RS School - JavaScript/Front-end
+
+### Experience
+********************
+* https://github.com/TimofeyKozich/rsschool-cv/blob/gh-pages/cv.md
 
 ### Languages
 *******************
