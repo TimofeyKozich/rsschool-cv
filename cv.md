@@ -1,11 +1,11 @@
-##### Timofey Kozich
+### Timofey Kozich
 *******************
 
 ### Contacts
 *******************
 * Phone: +375 29 550-85-56
-* E-mail: [kozich.timofey@gmail.com][kozich.timofey@gmail.com]
-* GitHub: [TimofeyKozich][https://github.com/TimofeyKozich]
+* E-mail: [kozich.timofey@gmail.com](kozich.timofey@gmail.com)
+* GitHub: [TimofeyKozich](https://github.com/TimofeyKozich)
 
 ### About me
 ********************
@@ -35,10 +35,10 @@ function mergeArrays(arr1, arr2) {
 
 ### Experience
 ********************
-* https://github.com/TimofeyKozich/rsschool-cv/blob/gh-pages/cv.md
+* [Code](https://github.com/TimofeyKozich/rsschool-cv/blob/gh-pages/cv.md)
 
 ### Languages
 *******************
-English - Pre-Intermediate/Intermediate
-Russian - Advanced
-Belorussian - Native
+* English - Pre-Intermediate/Intermediate
+* Russian - Advanced
+* Belorussian - Native
