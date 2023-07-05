@@ -1,3 +1,29 @@
 * {
-    box-sizing: border-box;
-  }
+  box-sizing: border-box;
+}
+
+.header,
+.main,
+.footer {
+  max-width: 1200px;
+  margin: auto;
+}
+
+.github-link-img,
+.year,
+.rs-school-link-img {
+  width: 32%;
+  margin: 0 20px;
+}
+
+.github-link-img {
+  text-align: left;
+}
+
+.rs-school-link-img {
+  text-align: right;
+}
+
+.year {
+  text-align: center;
+}
