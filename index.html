@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- TODO: Add favicon -->
+    <link rel="icon" href="#">
+    <link rel="stylesheet" href="style.css">
+    <title>cv</title>
+  </head>
+  <body>
+    <!-- start header -->
+    <header class="header">
+      <h1>Timofey Kozich</h1>
+      <p>Frontend Developer</p>
+      <!-- TODO: Add navigation and photo -->
+    </header>
+    <!-- start main -->
+    <main class="main">
+      <!-- Block About me -->
+      <h2 class="about">About me</h2>
+      <p class="about_description">I have good interpersonal skills, am an excellent team worker and very willing to learn and develop new skills. I believe, that my ability to learn and to gain new skills will lead me through this path of becoming a proficient Frontend Developer.</p>
+      <!-- Block My Skills -->
+      <h2 class="skills">Skills</h2>
+      <ul class="skills_list">
+        <li class="skills_item">HTML</li>
+        <li class="skills_item">CSS/SASS</li>
+        <li class="skills_item">JavaScript</li>
+        <li class="skills_item">Git</li>
+      </ul>
+      <!-- Block Code Example -->
+      <h2 class="codeExample">Code example</h2>
+      <code class="code_text">
+        function mergeArrays(arr1, arr2) {<br>
+          let set = new Set ([...arr1, ...arr2])<br>
+          return Array.from(set).sort((a, b) => a - b)<br>
+        }<br>
+      </code>
+      <!-- Block Education -->
+      <h2 class="education">Education</h2>
+      <ul class="education_list">
+        <li class="education_item">Belorussian state university of informatic and radioelectronic</li>
+        <li class="education_item">RS School - JavaScript/Front-end</li>
+      </ul>
+      <!-- Block Experience -->
+      <h2 class="experiense">Experience</h2>
+      <!-- TODO: Add more link -->
+      <a href="https://github.com/TimofeyKozich/rsschool-cv/blob/gh-pages/cv.md">Code</a>
+      <!-- Block Languages -->
+      <h2 class="language-title">Languages</h2>
+      <ul class="language-list">
+        <li class="language-item">English - Pre-Intermediate/Intermediate</li>
+        <li class="language-item">Russian - Advanced</li>
+        <li class="language-item">Belorussian - Native</li>
+      </ul>
+    </main>
+    <!-- start Footer -->
+    <footer class="footer">
+      <a class="github-link" href="https://github.com/TimofeyKozich?tab=repositories">Github-link</a>
+      <p class="year">2023</p>
+      <a class="rsschool-link" href="https://rs.school/js/">RS_Schooll-link</a>
+    </footer>
+  </body>
+</html>
