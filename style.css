@@ -1,29 +1,61 @@
 * {
   box-sizing: border-box;
+  margin: 0;
+  padding: 0;
 }
 
-.header,
-.main,
+.header {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.wraper {
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  max-width: 1200px;
+  height: 400px;
+  margin: 0 auto;
+}
+
+.photo {
+  height: 100%;
+}
+
+.nav-list {
+  display: flex;
+  justify-content: space-between;
+  flex-basis: content;
+  list-style: none;
+}
+
+.nav-item-link {
+  text-decoration: none;
+  color: black;
+}
+
+.main {
+  max-width: 1200px;
+  display: flex;
+  flex-direction: column;
+  margin: 0 auto;
+}
+.section {
+  max-width: 1200px;
+}
+
 .footer {
   max-width: 1200px;
-  margin: auto;
-}
-
-.github-link-img,
-.year,
-.rs-school-link-img {
-  width: 32%;
-  margin: 0 20px;
+  height: 50px;
+  display: flex;
+  justify-content: space-between;
+  margin: 0 auto;
 }
 
 .github-link-img {
-  text-align: left;
+  height: 100%;
 }
 
 .rs-school-link-img {
-  text-align: right;
-}
-
-.year {
-  text-align: center;
+  height: 100%;
 }

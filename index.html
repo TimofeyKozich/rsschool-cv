@@ -8,12 +8,40 @@
     <link rel="stylesheet" href="style.css">
     <title>cv</title>
   </head>
-  <body>
+  <body class="body">
     <!-- Section: Header -->
     <header class="header">
-      <h1>Timofey Kozich</h1>
-      <p>Frontend Developer</p>
-      <!-- TODO: Add navigation and photo -->
+      <nav class="nav">
+        <ul class="nav-list">
+          <li class="nav-item">
+            <a class="nav-item-link" href="#summary">summary</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-item-link" href="#skills">skills</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-item-link" href="#code">code</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-item-link" href="#education">education</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-item-link" href="#projects">projects</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-item-link" href="#languages">languages</a>
+          </li>
+        </ul>
+      </nav>
+      <div class="wraper">
+        <figure class="photo">
+          <img class="photo" src="assets/img/photo.png" alt="photo / avatar">
+        </figure>
+        <section class="title">
+          <h1>Timofey Kozich</h1>
+          <p>Frontend Developer</p>
+        </section>
+      </div>
     </header>
     <!-- Main section -->
     <main class="main">
@@ -57,7 +85,7 @@
         <a href="https://github.com/TimofeyKozich/rsschool-cv/blob/gh-pages/cv.md">Code</a>
       </section>
       <!-- Section: Languages -->
-      <section class="section" id="Languages">
+      <section class="section" id="languages">
         <h2 class="language-title">Languages</h2>
         <ul class="language-list">
           <li class="language-item">English - Pre-Intermediate/Intermediate</li>
@@ -68,9 +96,13 @@
     </main>
     <!-- start Footer -->
     <footer class="footer">
-      <a class="github-link" href="https://github.com/TimofeyKozich?tab=repositories"><img class="github-link-img" src="assets/img/GitHub_Logo.png" alt="GitHub logo"></a>
-      <span class="year">2023</span>
-      <a class="rs-school-link" href="https://rs.school/js/"><img class="rs-school-link-img" src="assets/svg/rs_school_js_logo.svg" alt="rs school logo"></a>
+      <figure class="github-link-img">
+        <a class="github-link" href="https://github.com/TimofeyKozich?tab=repositories"><img class="github-link-img" src="assets/img/GitHub_Logo.png" alt="GitHub logo"></a>
+      </figure>
+      <p class="year">2023</p>
+      <figure class="rs-school-link-img">
+        <a class="rs-school-link" href="https://rs.school/js/"><img class="rs-school-link-img" src="assets/svg/rs_school_js_logo.svg" alt="rs school logo"></a>
+      </figure>
     </footer>
   </body>
 </html>
