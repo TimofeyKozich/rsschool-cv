@@ -1,29 +1,131 @@
+/* Reset styles */
 * {
   box-sizing: border-box;
+  margin: 0;
+  padding: 0;
 }
 
-.header,
-.main,
-.footer {
+.body {
+  font-family: 'Inter', sans-serif;
+  background-color: #FFFDEE;
+}
+
+/* Header styles */
+
+.header {
   max-width: 1200px;
+  margin: 0 auto;
+  background-color: #325946;
+}
+
+.nav__list {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 2em;
+  font-weight: bold;
+  list-style: none;
+}
+
+.nav__list_item-link {
+  text-decoration: none;
+  color: #EFD343;
+}
+
+.nav__list_item-link:hover {
+  color: #D9584F;
+}
+
+/* Main styles */
+
+.title {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px 0;
+  background-color: #325946;
+}
+
+.title__photo {
+  margin-left: 50px;
+}
+
+.title__photo_img {
+  border: #647717 solid 3px;
+  border-radius: 50%;
+}
+
+.title__name {
+  flex-grow: 1;
+  display: flex;
+  flex-direction: column;
+}
+
+.title__name_name {
   margin: auto;
+  font-size: 4rem;
+  font-weight: bold;
+  color: #FFFFFF;
 }
 
-.github-link-img,
-.year,
-.rs-school-link-img {
-  width: 32%;
-  margin: 0 20px;
+.title__name_job {
+  margin: auto;
+  font-size: 2rem;
+  color: #EFD343;
 }
 
-.github-link-img {
-  text-align: left;
+/* Main section styles */
+
+.main {
+  display: flex;
+  flex-direction: column;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+.section {
+  margin: 20px 0;
+  border-top: #DC911B solid 2px;
 }
 
-.rs-school-link-img {
-  text-align: right;
+.section__title {
+  line-height: 2em;
+  color: #D9584F;
 }
 
-.year {
+.section__description {
+  font-family: 'Rubik', sans-serif;
+  margin-left: 50px;
+}
+
+.skills-list,
+.education-list {
+  margin-left: 20px;
+  line-height: 2em;
+}
+
+.language-list,
+.contact-list {
+  display: flex;
+  justify-content: center;
+  list-style: none;
+}
+
+.language-item,
+.contact-item {
+  min-width: 250px;
+  margin: auto;
   text-align: center;
+}
+
+/* Footer styles */
+
+.footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 1200px;
+  height: 70px;
+  margin: 0 auto;
+  font-size: 2rem;
+  border-top: #DC911B solid 2px;
 }
